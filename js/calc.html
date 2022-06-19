@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+    class Calc{
+        constructor(num1, num2){
+            this.num1 = num1;
+            this.num2 = num2;
+        }
+
+        add(){
+            let sum = this.num1 + this.num2;
+            return `The sum of ${this.num1} and ${this.num2} is ${sum}`;
+        }
+
+        sub(){
+            let diff = this.num1 - this.num2;
+            return `The difference of ${this.num1} and ${this.num2} is ${diff}`;
+        }
+    }
+</script>
+</html>
