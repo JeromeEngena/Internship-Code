@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+    let obj = new Object();
+    obj.id = 1;
+    obj.name = "david";
+    obj.gender = "male"
+    console.log(obj);
+
+    let obj2 = {"id":1, "name": "david", "gender":"male"};
+    console.log(obj2);
+
+    obj.name = "michael";
+    console.log(obj);
+    obj.nationality = "ugandan";
+    console.log(obj);
+    delete obj.nationality;
+    console.log(obj);
+    console.log(Object.keys(obj));
+    console.log(Object.values(obj));
+    console.log(Object.entries(obj));
+
+    // for(key, value of Object.entries(obj)){
+    //     console.log(key, value);
+    // };
+</script>
+</html>

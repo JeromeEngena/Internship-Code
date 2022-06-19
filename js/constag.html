@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+    let div = document.createElement("div");
+    let p = document.createElement("p");
+    let b = document.createElement("button");
+    p.textContent = "This is my paragraph";
+    b.textContent = "Button"
+    div.appendChild(p);
+    div.appendChild(b)
+    document.write(div.innerHTML);
+</script>
+</html>
